@@ -28,7 +28,7 @@
                 <legend>Information</legend> 
                 <p>
                     <label for="Mobilenumber">Mobile Number:</label>
-                    <input type="number" name="Mobilenumber" id="Mobilenumber" minlength="10" maxlength="10">
+                    <input type="tel" name="Mobilenumber" id="Mobilenumber" minlength="10" maxlength="10">
                 </p>
                 <p>
                     <label for="E-mail">E-mail:</label>
@@ -38,7 +38,7 @@
             <fieldset>
                 <legend>Type of query</legend>
                 <p>
-                    <label for="query">Choose a Query Realted :</label>
+                    <label for="query" id="query">Choose a Query Realted:</label>
                     <select name="type of query">
                      <option value="Career Opportunity">Career Opportunity</option>
                      <option value="Business Proposal">Business Proposal</option>
@@ -48,16 +48,16 @@
                 </p>
             </fieldset>
             <fieldset>
-                    <legend>Explain your query</legend>
+                <legend>Explain your query</legend>
                <p>
-                   <label for="Message">Explain in detail about Query</label>
-                   <textarea id="Message" name="Message" rows="4" cols="50">
-                   </textarea>
+                 <label for="Message">Explain in detail about Query</label>
+                 <textarea id="Message" name="Message" rows="4" cols="50">
+                 </textarea>
                </p>
            </fieldset>
            <fieldset>
             <p>
-                <input type="Submit" value="Submit"></input>
+                <input type="Submit" value="Submit">
             </p>
         </fieldset>
         </form>
